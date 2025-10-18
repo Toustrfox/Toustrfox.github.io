@@ -18,21 +18,25 @@ body{
     color:aliceblue;
     margin-left: 20px;
 }
-.hypper{
-    color:darkgray;
-    font-size: large;
-}
-.idk{
+.idk ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
-.idk{
+.idk a{
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: right;
+    color:darkgray;
+    font-size: large;
+}
+.idk a:hover{
+    background-color: dimgrey;
+}
+.idk li{
+    float: right;
 }
 .about{
     color:floralwhite;
