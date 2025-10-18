@@ -3,14 +3,38 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0;
+    margin: 0px;
     height: 800px;
     image-rendering: crisp-edges;
     background-color: blueviolet;
+}
+header{
+    text-align: right;
+    margin-right: 20px;
 }
 .text{
     color:aliceblue
 }
 .hypper{
     color:darkgray
+}
+.idk{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.idk{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: right;
+}
+.about{
+    color:floralwhite;
+    margin-left: 10px;
+}
+.something{
+    color:ghostwhite;
+    margin-left: 5px;
 }
