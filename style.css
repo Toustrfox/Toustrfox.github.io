@@ -4,10 +4,11 @@ body{
     background-position: center;
     background-size: cover;
     margin: 0px;
-    height: 800px;
+    height: 100vh;
     image-rendering: crisp-edges;
-    background-attachment: scroll;
+    background-attachment: fixed;
     position: relative;
+    background-blend-mode: screen;
 }
 .top{
     position: absolute;
@@ -17,7 +18,8 @@ body{
     height: 20%;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-     background: linear-gradient(to bottom, rgba(0,0,0,0.2), transparent);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), transparent);
+    background-blend-mode: screen;
 }
 .top2{
     position: absolute;
@@ -27,7 +29,8 @@ body{
     height: 16%;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-     background: linear-gradient(to bottom, rgba(0,0,0,0.2), transparent);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), transparent);
+    background-blend-mode: screen;
 }
 .header{
     text-align: right; margin-right: 20px; color: aliceblue;
