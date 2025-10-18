@@ -1,0 +1,16 @@
+body{
+    background-image: url(obrazky/galaxy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 800px;
+    image-rendering: crisp-edges;
+    background-color: blueviolet;
+}
+.text{
+    color:aliceblue
+}
+.hypper{
+    color:darkgray
+}
